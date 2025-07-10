@@ -1,7 +1,7 @@
 # This will be to create the API.
 
 from fastapi import FastAPI
-from langchain.prompt import ChatPromptTemplate
+from langchain.prompts import ChatPromptTemplate
 from langchain.chat_models import ChatOpenAI
 # Add multiple routes, maybe 1 route to interact with Ollama, 1 to interact with OpenAI
 from langserve import add_routes
